@@ -1,0 +1,302 @@
+Using ascii libraries.
+Allocating SQL Environment Handle.
+Get Environment NTS Attribute.
+NTS Enabled
+Enumerating SQL Data Sources.
+Server: Visio Database Samples         Microsoft Access Driver (*.MDB).
+Server: MS Access Database             Microsoft Access Driver (*.mdb, *.accdb).
+Server: Excel Files                    Microsoft Excel Driver (*.xls, *.xlsx, *.xlsm, *.xlsb).
+Server: dBASE Files                    Microsoft Access dBASE Driver (*.dbf, *.ndx, *.mdx).
+Server: Equinox                        SQL Native Client.
+Server: TeleLink                       SQL Native Client.
+Server: LocalServer                    SQL Server.
+Server: MRC_ODBC                       Pervasive ODBC Engine Interface.
+Server: ACCT_ODBC                      Pervasive ODBC Engine Interface.
+Server: BILLJR_ODBC                    Pervasive ODBC Engine Interface.
+Server: LLC_ODBC                       Pervasive ODBC Engine Interface.
+Server: LLCWLT_ODBC                    Pervasive ODBC Engine Interface.
+Server: VAST_ODBC                      Pervasive ODBC Engine Interface.
+Server: CONNECT:Direct v4.0.00 TcqStats Microsoft Access Driver (*.mdb).
+Server: CONNECT:Direct v4.0.00 Messages Microsoft Access Driver (*.mdb).
+Server: HighValueDB                    Microsoft Access Driver (*.mdb).
+Server: DEMODATA                       Pervasive ODBC Engine Interface.
+Server: Connect:Direct v4.2.00 TcqStats Microsoft Access Driver (*.mdb).
+Server: Connect:Direct v4.2.00 Messages Microsoft Access Driver (*.mdb).
+Server: THAD0806_ODBC                  Pervasive ODBC Engine Interface.
+Server: FoodMart 2000                  Microsoft Access Driver (*.mdb).
+Server: DefaultDB                      Pervasive ODBC Engine Interface.
+Server: SAMPLE_ODBC                    Pervasive ODBC Engine Interface.
+Server: DEMO_ODBC                      Pervasive ODBC Engine Interface.
+Server: BWSYSTEM1400_ODBC              Pervasive ODBC Engine Interface.
+Server: FactoryStdConstantDatabase     SQL Server.
+Server: FactoryStdCustomerDatabase     SQL Server.
+Server: FactoryStdTaxesDatabase        SQL Server.
+Server: FactoryStdRecycleDatabase      SQL Server.
+Server: FactoryStdDupesDatabase        SQL Server.
+Server: FactoryStdSuperSumsDatabase    SQL Server.
+Server: Probe                          SQL Server.
+Finished Enumerating SQL Data Sources.
+Allocating SQL Connection Handle.
+Allocating SQL Connection Handle #2.
+Connecting to Datasource.
+SQL State: 01000, Message: [Microsoft][SQL Native Client][SQL Server]Changed database context to 'TELELINKUSAGE'..
+Native Error Code: 0x00001645.
+SQL State: 01000, Message: [Microsoft][SQL Native Client][SQL Server]Changed language setting to us_english..
+Native Error Code: 0x00001647.
+Connecting to Datasource again.
+SQL State: 01000, Message: [Microsoft][SQL Native Client][SQL Server]Changed database context to 'TELELINKUSAGE'..
+Native Error Code: 0x00001645.
+SQL State: 01000, Message: [Microsoft][SQL Native Client][SQL Server]Changed language setting to us_english..
+Native Error Code: 0x00001647.
+Get Functions.
+Get Info: Server/Version.
+Server: Microsoft SQL Server Version: 09.00.3042.
+Get Info: X/Open CLI Spec Year.
+X/Open Spec Year: 1995.
+Allocating SQL Statement Handle.
+Getting Cursor Name.
+Cursor name is: SQL_CUR00F8E0C0.
+Setting Cursor Name.
+Getting Cursor Name.
+Cursor name is: TestCursorName.
+Execute Tables Function.
+Processing: TELELINKUSAGE	dbo	CIMCO_20090118	TABLE	
+ProcessTable Started!
+Execute Direct.
+Get Result Columns.
+Number of result columns: 47.
+Get Column Descriptions.
+ORIG_DATE                     	93	23	3	1
+DISC_DATE                     	93	23	3	1
+BILLING_NO                    	12	30	0	1
+DIALED_NO                     	12	30	0	1
+TERM_NO                       	12	30	0	1
+CALLED_NO                     	12	30	0	1
+FROM_NO                       	12	30	0	1
+ORIG_NO                       	12	30	0	1
+DURATION                      	4	10	0	1
+BILL_DURATION                 	4	10	0	1
+ORIG_DURATION                 	4	10	0	1
+TERM_DURATION                 	4	10	0	1
+CIC                           	12	10	0	1
+ORIG_TRUNK                    	12	30	0	1
+TERM_TRUNK                    	12	30	0	1
+DATA_SOURCE                   	12	6	0	1
+ANSTYPE                       	1	1	0	1
+CALL_TYPE                     	12	15	0	1
+STRUCTURE_CODE                	12	15	0	1
+PROCESSED_DATE                	93	23	3	1
+REF_NO                        	-5	19	0	1
+FILENAME                      	12	255	0	1
+BYTE_COUNT                    	4	10	0	1
+BYTE_OFFSET                   	4	10	0	1
+BILLING_JURISDICTION          	12	50	0	1
+BILL_TYPE                     	12	30	0	1
+COST_JURISDICTION             	12	50	0	1
+DOM_IDDD                      	1	1	0	1
+INITIAL_CELL_SITE             	12	30	0	1
+INTL_REGION                   	12	13	0	1
+JURISDICTION                  	12	50	0	1
+LAST_CELL_SITE                	12	30	0	1
+OLI                           	12	10	0	1
+ON_NET                        	1	1	0	1
+ORIG_CARRIER                  	4	10	0	1
+PAYPHONE_IND                  	1	1	0	1
+RBOC                          	1	1	0	1
+ROAMER                        	1	1	0	1
+SEQ_NO                        	4	10	0	1
+TERM_CARRIER                  	4	10	0	1
+TRAFFIC_TYPE                  	1	1	0	1
+REGION                        	12	13	0	1
+REGION_IND                    	1	1	0	1
+TRAN_NO                       	12	30	0	1
+TREATMENT_CODE                	4	10	0	1
+ORIG_OCN                      	12	4	0	1
+TERM_OCN                      	12	4	0	1
+Done Getting Column Descriptions.
+ProcessTable Ended!
+Processing: TELELINKUSAGE	dbo	CIMCO_20090119	TABLE	
+ProcessTable Started!
+Execute Direct.
+Get Result Columns.
+Number of result columns: 47.
+Get Column Descriptions.
+ORIG_DATE                     	93	23	3	1
+DISC_DATE                     	93	23	3	1
+BILLING_NO                    	12	30	0	1
+DIALED_NO                     	12	30	0	1
+TERM_NO                       	12	30	0	1
+CALLED_NO                     	12	30	0	1
+FROM_NO                       	12	30	0	1
+ORIG_NO                       	12	30	0	1
+DURATION                      	4	10	0	1
+BILL_DURATION                 	4	10	0	1
+ORIG_DURATION                 	4	10	0	1
+TERM_DURATION                 	4	10	0	1
+CIC                           	12	10	0	1
+ORIG_TRUNK                    	12	30	0	1
+TERM_TRUNK                    	12	30	0	1
+DATA_SOURCE                   	12	6	0	1
+ANSTYPE                       	1	1	0	1
+CALL_TYPE                     	12	15	0	1
+STRUCTURE_CODE                	12	15	0	1
+PROCESSED_DATE                	93	23	3	1
+REF_NO                        	-5	19	0	1
+FILENAME                      	12	255	0	1
+BYTE_COUNT                    	4	10	0	1
+BYTE_OFFSET                   	4	10	0	1
+BILLING_JURISDICTION          	12	50	0	1
+BILL_TYPE                     	12	30	0	1
+COST_JURISDICTION             	12	50	0	1
+DOM_IDDD                      	1	1	0	1
+INITIAL_CELL_SITE             	12	30	0	1
+INTL_REGION                   	12	13	0	1
+JURISDICTION                  	12	50	0	1
+LAST_CELL_SITE                	12	30	0	1
+OLI                           	12	10	0	1
+ON_NET                        	1	1	0	1
+ORIG_CARRIER                  	4	10	0	1
+PAYPHONE_IND                  	1	1	0	1
+RBOC                          	1	1	0	1
+ROAMER                        	1	1	0	1
+SEQ_NO                        	4	10	0	1
+TERM_CARRIER                  	4	10	0	1
+TRAFFIC_TYPE                  	1	1	0	1
+REGION                        	12	13	0	1
+REGION_IND                    	1	1	0	1
+TRAN_NO                       	12	30	0	1
+TREATMENT_CODE                	4	10	0	1
+ORIG_OCN                      	12	4	0	1
+TERM_OCN                      	12	4	0	1
+Done Getting Column Descriptions.
+ProcessTable Ended!
+Processing: TELELINKUSAGE	dbo	CIMCO_20090120	TABLE	
+ProcessTable Started!
+Execute Direct.
+Get Result Columns.
+Number of result columns: 47.
+Get Column Descriptions.
+ORIG_DATE                     	93	23	3	1
+DISC_DATE                     	93	23	3	1
+BILLING_NO                    	12	30	0	1
+DIALED_NO                     	12	30	0	1
+TERM_NO                       	12	30	0	1
+CALLED_NO                     	12	30	0	1
+FROM_NO                       	12	30	0	1
+ORIG_NO                       	12	30	0	1
+DURATION                      	4	10	0	1
+BILL_DURATION                 	4	10	0	1
+ORIG_DURATION                 	4	10	0	1
+TERM_DURATION                 	4	10	0	1
+CIC                           	12	10	0	1
+ORIG_TRUNK                    	12	30	0	1
+TERM_TRUNK                    	12	30	0	1
+DATA_SOURCE                   	12	6	0	1
+ANSTYPE                       	1	1	0	1
+CALL_TYPE                     	12	15	0	1
+STRUCTURE_CODE                	12	15	0	1
+PROCESSED_DATE                	93	23	3	1
+REF_NO                        	-5	19	0	1
+FILENAME                      	12	255	0	1
+BYTE_COUNT                    	4	10	0	1
+BYTE_OFFSET                   	4	10	0	1
+BILLING_JURISDICTION          	12	50	0	1
+BILL_TYPE                     	12	30	0	1
+COST_JURISDICTION             	12	50	0	1
+DOM_IDDD                      	1	1	0	1
+INITIAL_CELL_SITE             	12	30	0	1
+INTL_REGION                   	12	13	0	1
+JURISDICTION                  	12	50	0	1
+LAST_CELL_SITE                	12	30	0	1
+OLI                           	12	10	0	1
+ON_NET                        	1	1	0	1
+ORIG_CARRIER                  	4	10	0	1
+PAYPHONE_IND                  	1	1	0	1
+RBOC                          	1	1	0	1
+ROAMER                        	1	1	0	1
+SEQ_NO                        	4	10	0	1
+TERM_CARRIER                  	4	10	0	1
+TRAFFIC_TYPE                  	1	1	0	1
+REGION                        	12	13	0	1
+REGION_IND                    	1	1	0	1
+TRAN_NO                       	12	30	0	1
+TREATMENT_CODE                	4	10	0	1
+ORIG_OCN                      	12	4	0	1
+TERM_OCN                      	12	4	0	1
+Done Getting Column Descriptions.
+ProcessTable Ended!
+Closing Cursor.
+Getting Special Columns Function.
+Get Result Columns.
+Number of result columns: 8.
+Get Column Descriptions.
+SCOPE                         	5	5	0	1
+COLUMN_NAME                   	-9	128	0	0
+DATA_TYPE                     	5	5	0	0
+TYPE_NAME                     	-9	128	0	0
+COLUMN_SIZE                   	4	10	0	1
+BUFFER_LENGTH                 	4	10	0	1
+DECIMAL_DIGITS                	5	5	0	1
+PSEUDO_COLUMN                 	5	5	0	1
+Done Getting Column Descriptions.
+Closing Cursor.
+Getting Columns Function.
+Get Result Columns.
+Number of result columns: 25.
+Get Column Descriptions.
+TABLE_CAT                     	-9	128	0	1
+TABLE_SCHEM                   	-9	128	0	1
+TABLE_NAME                    	-9	128	0	0
+COLUMN_NAME                   	-9	128	0	0
+DATA_TYPE                     	5	5	0	0
+TYPE_NAME                     	-9	128	0	0
+COLUMN_SIZE                   	4	10	0	1
+BUFFER_LENGTH                 	4	10	0	1
+DECIMAL_DIGITS                	5	5	0	1
+NUM_PREC_RADIX                	5	5	0	1
+NULLABLE                      	5	5	0	0
+REMARKS                       	12	254	0	1
+COLUMN_DEF                    	-9	4000	0	1
+SQL_DATA_TYPE                 	5	5	0	0
+SQL_DATETIME_SUB              	5	5	0	1
+CHAR_OCTET_LENGTH             	4	10	0	1
+ORDINAL_POSITION              	4	10	0	0
+IS_NULLABLE                   	12	254	0	1
+SS_UDT_CATALOG_NAME           	-9	128	0	1
+SS_UDT_SCHEMA_NAME            	-9	128	0	1
+SS_UDT_ASSEMBLY_TYPE_NAME     	-9	4000	0	1
+SS_XML_SCHEMACOLLECTION_CATALOG_NAME	-9	128	0	1
+SS_XML_SCHEMACOLLECTION_SCHEMA_NAME	-9	128	0	1
+SS_XML_SCHEMACOLLECTION_NAME  	-9	128	0	1
+SS_DATA_TYPE                  	-6	3	0	1
+Done Getting Column Descriptions.
+Closing Cursor.
+Getting Statistics Function.
+Get Result Columns.
+Number of result columns: 13.
+Get Column Descriptions.
+TABLE_CAT                     	-9	128	0	1
+TABLE_SCHEM                   	-9	128	0	1
+TABLE_NAME                    	-9	128	0	0
+NON_UNIQUE                    	5	5	0	1
+INDEX_QUALIFIER               	-9	128	0	1
+INDEX_NAME                    	-9	128	0	1
+TYPE                          	5	5	0	0
+ORDINAL_POSITION              	5	5	0	1
+COLUMN_NAME                   	-9	128	0	1
+ASC_OR_DESC                   	1	1	0	1
+CARDINALITY                   	4	10	0	1
+PAGES                         	4	10	0	1
+FILTER_CONDITION              	12	128	0	1
+Done Getting Column Descriptions.
+Closing Cursor.
+Get Row Count.
+Number of result rows:    -1.
+Closing Cursor.
+Freeing SQL Statememnt Handle.
+Disconnecting From Datasource.
+Freeing SQL Connection Handle.
+Freeing SQL Environment Handle.
+SQL State: HY010, Message: [Microsoft][ODBC Driver Manager] Function sequence error.
+Native Error Code: 0x00000000.
+Done!

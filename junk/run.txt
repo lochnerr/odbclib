@@ -1,0 +1,2 @@
+Format: \projects\TollFree\debug\TollFree.exe DSN      Username Passcode FromDate ToDate
+e.g:    \projects\TollFree\debug\TollFree.exe TeleLink sa       yourpass 20090218 20090317

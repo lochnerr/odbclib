@@ -1,0 +1,2 @@
+Format: c:\projects\odbclib\debug\odbclib.exe DSN      Username Passcode FromDate ToDate
+e.g:    c:\projects\odbclib\debug\odbclib.exe TeleLink sa       yourpass 20090218 20090317

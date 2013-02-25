@@ -1,0 +1,14 @@
+TABLE_CAT	TABLE_SCHEM	TABLE_NAME	NON_UNIQUE	INDEX_QUALIFIER	INDEX_NAME	TYPE	ORDINAL_POSITION	COLUMN_NAME	ASC_OR_DESC	CARDINALITY	PAGES	FILTER_CONDITION
+CABS	dbo	CallRecordFromDDL	<null>	<null>	<null>	0	<null>	<null>	<null>	0	0	<null>
+CABS	dbo	CallRecordFromDDL	0	CallRecordFromDDL	PK_CallRecord	1	1	CallRecordID		0	0	<null>
+CABS	dbo	CallRecordFromDDL	0	CallRecordFromDDL	CallDate	3	1	FR_Year		<null>	<null>	<null>
+CABS	dbo	CallRecordFromDDL	0	CallRecordFromDDL	CallDate	3	2	FR_Month		<null>	<null>	<null>
+CABS	dbo	CallRecordFromDDL	0	CallRecordFromDDL	CallDate	3	3	FR_Day		<null>	<null>	<null>
+CABS	dbo	CallRecordFromDDL	0	CallRecordFromDDL	CallDate	3	4	FR_ConnectTimeHour		<null>	<null>	<null>
+CABS	dbo	CallRecordFromDDL	0	CallRecordFromDDL	CallDate	3	5	FR_ConnectTimeMinute		<null>	<null>	<null>
+CABS	dbo	CallRecordFromDDL	0	CallRecordFromDDL	CallDate	3	6	FR_ConnectTimeSecond		<null>	<null>	<null>
+CABS	dbo	CallRecordFromDDL	0	CallRecordFromDDL	CallDate	3	7	CallRecordID		<null>	<null>	<null>
+CABS	dbo	CallRecordFromDDL	1	CallRecordFromDDL	FromNo	3	1	FR_ToNumberNPA		<null>	<null>	<null>
+CABS	dbo	CallRecordFromDDL	1	CallRecordFromDDL	FromNo	3	2	FR_ToNumberNXX		<null>	<null>	<null>
+CABS	dbo	CallRecordFromDDL	1	CallRecordFromDDL	FromNo	3	3	FR_ToNumberLineNumber		<null>	<null>	<null>
+

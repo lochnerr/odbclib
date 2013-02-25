@@ -1,0 +1,55 @@
+
+--- Module:   sqllib.c
+                                                                              _
+	Results->Column = malloc( sizeof(SQLLibColDef) * Results->ColumnCount );
+sqllib.c(509) : Info 737: Loss of sign in promotion from int to unsigned int
+
+--- Module:   sqllibver.c
+
+--- Module:   sqlxxx.c
+
+--- Global Wrap-up
+
+Info 765: external 'freeEnv(void *)' (line 128, file sqllibver.c) could be made
+    static
+Info 714: Symbol 'freeEnv(void *)' (line 128, file sqllibver.c) not referenced
+Info 765: external 'isSupported(void *, unsigned short)' (line 341, file
+    sqllib.c) could be made static
+Info 714: Symbol 'isSupported(void *, unsigned short)' (line 341, file
+    sqllib.c) not referenced
+Info 765: external 'SQLLibBindByName(struct SQLLibResultsTag *, const char *,
+    short, void *, long)' (line 165, file sqllib.c) could be made static
+Info 765: external 'SQLLibColumnDouble(struct SQLLibResultsTag *, unsigned
+    short)' (line 319, file sqllib.c) could be made static
+Info 714: Symbol 'SQLLibColumnDouble(struct SQLLibResultsTag *, unsigned
+    short)' (line 319, file sqllib.c) not referenced
+Info 765: external 'SQLLibColumnLong(struct SQLLibResultsTag *, unsigned
+    short)' (line 301, file sqllib.c) could be made static
+Info 714: Symbol 'SQLLibColumnLong(struct SQLLibResultsTag *, unsigned short)'
+    (line 301, file sqllib.c) not referenced
+Info 765: external 'SQLLibConnectionHandle(struct SQLLibConnectionTag *)' (line
+    1049, file sqllib.c) could be made static
+Info 714: Symbol 'SQLLibConnectionHandle(struct SQLLibConnectionTag *)' (line
+    1049, file sqllib.c) not referenced
+Info 765: external 'SQLLibGetLong(void *, unsigned short, long *, unsigned int
+    *)' (line 226, file sqllib.c) could be made static
+Info 714: Symbol 'SQLLibGetLong(void *, unsigned short, long *, unsigned int
+    *)' (line 226, file sqllib.c) not referenced
+Info 765: external 'SQLLibGetDouble(void *, unsigned short, double *, unsigned
+    int *)' (line 245, file sqllib.c) could be made static
+Info 714: Symbol 'SQLLibGetDouble(void *, unsigned short, double *, unsigned
+    int *)' (line 245, file sqllib.c) not referenced
+Info 765: external 'SQLLibGetChar(void *, unsigned short, char *, long,
+    unsigned int *)' (line 264, file sqllib.c) could be made static
+Info 714: Symbol 'SQLLibGetChar(void *, unsigned short, char *, long, unsigned
+    int *)' (line 264, file sqllib.c) not referenced
+Info 765: external 'SQLLibIndexes(struct SQLLibConnectionTag *, const char *,
+    const char *, const char *, struct SQLLibIndexInfoTag *)' (line 687, file
+    sqllib.c) could be made static
+Info 714: Symbol 'SQLLibIndexes(struct SQLLibConnectionTag *, const char *,
+    const char *, const char *, struct SQLLibIndexInfoTag *)' (line 687, file
+    sqllib.c) not referenced
+Info 765: external 'logMsgStmt(void *, struct _iobuf *, short)' (line 375, file
+    sqllibver.c) could be made static
+Info 714: Symbol 'logMsgStmt(void *, struct _iobuf *, short)' (line 375, file
+    sqllibver.c) not referenced
